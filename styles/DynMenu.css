@@ -1,0 +1,53 @@
+@media screen
+{
+#navlist {
+/* position: absolute; */
+/* left: 36px; */
+/* top: 86px; */
+width: 186px;
+}
+#navlist ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+font-size: .9em;
+}
+#navlist li {
+margin: 0;
+}
+#navlist a {
+display: block;
+padding: 2px 2px 2px 2px;
+border: 1px solid;
+border-color: #ddd #000 #000 #ddd;
+background-color: #979caf;
+background-image:  url(img/l1_down.jpg);
+background-repeat: no-repeat;
+background-position: 0% 50%;
+}
+#navlist a:link, #navlist a:visited
+{
+	background-color: #979caf;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* you can combine the last two rules if you wish */
+
+#navlist a:hover, #navlist a:active {
+background-color: #d3cb9f;
+color: #ffffff;
+text-decoration: none;
+background-image:  url(img/l1_over.jpg);
+background-repeat: no-repeat;
+background-position: 0% 50%;
+}
+#uberlink a:link, #uberlink a:visited,
+#uberlink a:hover, #uberlink a:active {
+background-color: #9F6F9F;
+background-image:  url(img/l1_over.jpg);
+background-repeat: no-repeat;
+background-position: 0% 50%;
+color: #2D1E2D;
+}
+}

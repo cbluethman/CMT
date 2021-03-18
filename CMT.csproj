@@ -1,0 +1,657 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{258882BB-D4D0-428F-AC08-83B6A331BC0E}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CMT"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "CMT"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "DBObjects"
+                    AssemblyName = "DBObjects"
+                    HintPath = "bin\DBObjects.dll"
+                />
+                <Reference
+                    Name = "CSI.Utilities"
+                    AssemblyName = "CSI.Utilities"
+                    HintPath = "bin\CSI.Utilities.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "about.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "about.aspx.cs"
+                    DependentUpon = "about.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "about.aspx.resx"
+                    DependentUpon = "about.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "address.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "address.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin.aspx.cs"
+                    DependentUpon = "Admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin.aspx.resx"
+                    DependentUpon = "Admin.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "barrel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "barrel.aspx.cs"
+                    DependentUpon = "barrel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "barrel.aspx.resx"
+                    DependentUpon = "barrel.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Bottom.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Bottom.ascx.cs"
+                    DependentUpon = "Bottom.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Bottom.ascx.resx"
+                    DependentUpon = "Bottom.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "calendar.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "callinload.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "callinload.aspx.cs"
+                    DependentUpon = "callinload.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "callinload.aspx.resx"
+                    DependentUpon = "callinload.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CMT.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CMTWebBasePage.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "contact.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "contact.aspx.cs"
+                    DependentUpon = "contact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "contact.aspx.resx"
+                    DependentUpon = "contact.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CSScriptLib.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DBQueryCMT.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "disclaimer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "disclaimer.aspx.cs"
+                    DependentUpon = "disclaimer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "disclaimer.aspx.resx"
+                    DependentUpon = "disclaimer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GridITemplate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "job.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "job.aspx.cs"
+                    DependentUpon = "job.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "job.aspx.resx"
+                    DependentUpon = "job.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Left.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Left.ascx.cs"
+                    DependentUpon = "Left.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Left.ascx.resx"
+                    DependentUpon = "Left.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PriceITemplate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pricing.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "pricing.aspx.cs"
+                    DependentUpon = "pricing.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pricing.aspx.resx"
+                    DependentUpon = "pricing.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "royalty.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "royalty.aspx.cs"
+                    DependentUpon = "royalty.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "royalty.aspx.resx"
+                    DependentUpon = "royalty.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Top.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Top.ascx.cs"
+                    DependentUpon = "Top.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Top.ascx.resx"
+                    DependentUpon = "Top.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserLoginInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\CSSMenu.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\CSSMenu.ascx.cs"
+                    DependentUpon = "CSSMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin\CSSMenu.ascx.resx"
+                    DependentUpon = "CSSMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "admin\DailyPrice.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\DailyPrice.aspx.cs"
+                    DependentUpon = "DailyPrice.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin\DailyPrice.aspx.resx"
+                    DependentUpon = "DailyPrice.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "admin\Main.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "admin\Main.aspx.cs"
+                    DependentUpon = "Main.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "admin\Main.aspx.resx"
+                    DependentUpon = "Main.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ascx\JobForm.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ascx\JobForm.ascx.cs"
+                    DependentUpon = "JobForm.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ascx\JobForm.ascx.resx"
+                    DependentUpon = "JobForm.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "graphics\aboutoff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\abouton.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\apply_today.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\arrow.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\back.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\back1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\back2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\back2.psd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "graphics\back3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\back4.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\barreloff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\barrelon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\callinoff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\callinon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\clear.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\concept1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\concept2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\concept3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\concept4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\disclaimeroff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\disclaimeron.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\guageback.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\joboff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\jobon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\menuback.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\more2off.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\more2on.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\more3off.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\more3on.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\moreoff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\moreon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\pay1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\pay2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\pay3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\photo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\priceoff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\priceon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\red.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\royaltyoff.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\royaltyon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\service1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\service2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\service3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\tagline.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\temp.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "graphics\upload_resume.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\DynMenu.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "styles\main.css"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "uploads\" />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
